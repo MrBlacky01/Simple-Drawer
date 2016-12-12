@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Simple Drawer</string>
+
+    <string name="login_button_text">   Login</string>
+    <string name="color_label_text">Color : </string>
+    <string name="size_labe_text">Size : </string>
+</resources>

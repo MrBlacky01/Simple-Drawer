@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- pressed -->
+    <item android:state_pressed="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+               android:shape="rectangle">
+
+            <solid android:color="@color/colorLoginButtonClick" />
+
+            <corners android:radius="12dp" />
+
+            <stroke
+                android:width="2dp"
+                android:color="@color/colorLoginButtonStroke" />
+
+        </shape>
+
+    </item>
+
+    <!-- focused -->
+    <item android:state_focused="true">
+
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+               android:shape="rectangle">
+
+            <solid android:color="@color/colorLoginButton" />
+
+            <corners android:radius="12dp" />
+
+            <stroke
+                android:width="2dp"
+                android:color="@color/colorLoginButtonStroke" />
+
+        </shape>
+    </item>
+
+    <!-- default -->
+    <item >
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+               android:shape="rectangle">
+
+            <solid android:color="@color/colorLoginButton" />
+
+            <corners android:radius="12dp" />
+
+            <stroke
+                android:width="2dp"
+                android:color="@color/colorLoginButtonStroke" />
+
+        </shape>
+    </item>
+</selector>
