@@ -35,13 +35,7 @@ captures/
 # Intellij
 *.iml
 .idea/workspace.xml
-.idea/
 
 # Keystore files
 *.jks
 
-app/proguard-rules.pro
-gradlew.bat
-gradlew
-gradle/wrapper/*
-gradle.properties
