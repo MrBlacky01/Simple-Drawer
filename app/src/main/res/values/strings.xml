@@ -1,9 +1,27 @@
 <resources>
-    <string name="app_name">Simple Drawer</string>
+    <string name="app_name"> Simple Drawer</string>
 
     <string name="login_button_text">   Login</string>
     <string name="color_label_text">Color : </string>
     <string name="size_labe_text">Size : </string>
     <string name="exit_menu_item">Exit</string>
+    <string name="share_menu_item">Share</string>
+    <string name="add_background_menu_item">Background</string>
+    <string name="save_menu_item">Save</string>
+    <string name="add_title_save_dialog">Enter title</string>
+    <string name="logout_menu_item">Logout</string>
+    <string name="cancel_login">Login Cancel</string>
+    <string name="error_login">Error of login</string>
+    <string name="change_user">Change</string>
+    <string name="enter_as_user">Paint</string>
+    <string name="hello_string">Hello, </string>
+    <string name="choose_action_dialog">Choose action</string>
 
+    <string-array name="background_actions">
+        <item>From gallery</item>
+        <item>From camera</item>
+        <item>Remove</item>
+    </string-array>
+
+    <string name="facebook_app_id">299568650439695</string>
 </resources>
