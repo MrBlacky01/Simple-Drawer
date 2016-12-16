@@ -2,4 +2,24 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
       xmlns:SimpleDrawer="http://schemas.android.com/apk/res-auto">
 
+    <item
+        android:id="@+id/share_item_drawer"
+        android:title="@string/share_menu_item"
+        android:icon="@drawable/ic_share"
+        SimpleDrawer:showAsAction="always"/>
+    <item
+        android:id="@+id/backgroung_item_drawer"
+        android:title="@string/add_background_menu_item"
+        android:icon="@drawable/ic_insert_photo"
+        SimpleDrawer:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/save_item_drawer"
+        android:title="@string/save_menu_item"
+        android:icon="@drawable/ic_save"
+        SimpleDrawer:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/exit_item_drawer"
+        android:title="@string/exit_menu_item"
+        android:icon="@drawable/ic_power"
+        SimpleDrawer:showAsAction="ifRoom"/>
 </menu>
